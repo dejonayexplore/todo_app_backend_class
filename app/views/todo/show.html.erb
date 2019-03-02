@@ -13,7 +13,7 @@
      <div class="card">
          <input type="checkbox" name=""/>
          <h2><%= @todo_description %></h2>
-         <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo_pomodoro_estimate %>pomodoros</span>
+         <span class="pomodoro-estimate large-pomodoro-estimate"><%= params[:id] %>pomodoros</span>
          <a href="#" class="button" id="edit-todo-button">edit</a>
          <a href="#" class="button" id="delete-todo-button">edit</a>
          <a href="/todo/index" class="simple-link">go back...</a>
