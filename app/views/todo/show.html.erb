@@ -4,16 +4,15 @@
       dejonaye's to do list
     </h1>
 
-    <p>Let's do some math</p>
-    4 + 3 = <%= 4+3 %>
-    <div>
+    
+   
         
         
        
      <div class="card">
          <input type="checkbox" name=""/>
-         <h2><%= @todo_description %></h2>
-         <span class="pomodoro-estimate large-pomodoro-estimate"><%= params[:id] %>pomodoros</span>
+         <h2><%= @todo.description %></h2>
+         <span class="pomodoro-estimate large-pomodoro-estimate"><%= @todo.pomodoro_estimate %> pomodoros</span>
          <a href="#" class="button" id="edit-todo-button">edit</a>
          <a href="#" class="button" id="delete-todo-button">edit</a>
          <a href="/todo/index" class="simple-link">go back...</a>
